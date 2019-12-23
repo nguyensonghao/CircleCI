@@ -27,6 +27,7 @@ jobs:
             - v1-dependencies-
       - run: sudo npm install -g chromedriver --unsafe-perm=true --allow-root
       - run: npm install
+      - run: apt-get install chromium-browser
 
       - save_cache:
           paths:
