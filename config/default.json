@@ -1,0 +1,39 @@
+{
+    //LIVE
+    // "URL": "https://farmlandfinder.com",
+    // "URLLANDFORSALE": "https://farmlandfinder.com/landForSale",
+    // "URLPASTSALEMAP": "https://farmlandfinder.com/pastSalesMap",
+    // "URLHQPORTAL": "https://farmlandfinder.com/hq-portal",
+    // "ACCOUNT": {
+    //     "USERNAME": "nguyentienvu94@gmail.com",
+    //     "PASSWORD": "09071994"
+    // }
+    // "ACCOUNTADMIN": {
+    //     "USERNAME": "nguyentienvu94@gmail.com",
+    //     "PASSWORD": "09071994"
+    // },
+
+    //STAGING
+    "URL": "https://staging.terva.ag/",
+    "URLStaging": "https://staging.terva.ag/",
+    "URLLANDFORSALE": "https://staging.terva.ag/landForSale",
+    "URLPASTSALEMAP": "https://staging.terva.ag/pastSalesMap",
+    "URLHQPORTAL": "https://staging.terva.ag/hq-portal",
+    "ACCOUNT": {
+        "USERNAME": "loan1106@gmail.com",
+        "PASSWORD": "123123"
+    },
+    "ACCOUNTADMIN": {
+        "USERNAME": "nguyentienvu94@gmail.com",
+        "PASSWORD": "pg201121"
+    },
+    "URLPORTALFILTER": "https://staging.terva.ag/mapTab?id=5dfc4a97bb993936869c5faa",
+    "FOLDERFILTERNAME": "Sales Data API Testing",
+
+    // DO NOT CHANGE
+    "URLPORTAL": "https://staging.terva.ag/mapTab?id=5d94603ab3cb94706c7bf609",
+    "PASSWORDHQ": "AmesFarm20!",
+    "sizeScreen": {
+        "width": 1920, "height": 1080
+    }
+}
