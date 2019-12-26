@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'test/**/createNewFolder.test.js' --timeout 10000000"
+    "test": "mocha 'test/**/login.test.js' --timeout 10000000"
   },
   "author": "",
   "license": "ISC",
