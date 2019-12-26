@@ -41,9 +41,9 @@ jobs:
       - checkout
       - run:
           name: Download Selenium
-          command: curl -O http://selenium-release.storage.googleapis.com/3.6/selenium-server-standalone-3.6.0.jar
+          command: curl -O http://selenium-release.storage.googleapis.com/3.13/selenium-server-standalone-3.13.jar
       - run:
-          name: Start Selenium
+          name: Install Nodemodules
           command: npm install
       - run:
           name: Run Test
