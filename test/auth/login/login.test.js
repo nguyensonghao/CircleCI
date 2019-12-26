@@ -3,6 +3,8 @@ const assert = require('assert');
 const { Builder, By, until } = require('selenium-webdriver');
 const chromedriver = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
+require('chromedriver');
+
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
 
 const UtilHelper = require('../../helpers/util.helper');
