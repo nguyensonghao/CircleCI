@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.16
+      - image: selenium/standalone-chrome-debug
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -25,9 +25,7 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
-      - run: sudo npm install -g chromedriver --unsafe-perm=true --allow-root
       - run: npm install
-      - run: sudo apt-get install chromium-browser
 
       - save_cache:
           paths:
