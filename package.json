@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "config": "^3.2.4",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "selenium-webdriver": "^4.0.0-alpha.5"
   }
 }
